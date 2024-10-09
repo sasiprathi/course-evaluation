@@ -31,15 +31,37 @@ export class StudentAttendanceComponent implements OnInit {
             borderColor: '#6a1b9a',
             tension: 0.1,
             pointBackgroundColor: '#000',
+            pointRadius: 4
           },
         ],
       },
       options: {
         responsive: true,
+        plugins: {
+          legend: {
+            display: false // Hide the legend
+          }
+        },
         scales: {
           y: {
             beginAtZero: true,
             ticks: { stepSize: 25 },
+            display: true,
+            title: {
+              display: true,
+              text: 'Attendance'
+            },
+            grid: {
+              display: false // Hide y-axis grid lines
+            }
+          },
+          x: {
+            beginAtZero: false,
+            display: true,
+            title: {
+              display: true,
+              text: 'Weeks'
+            }
           },
         },
       },

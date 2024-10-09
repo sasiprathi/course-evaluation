@@ -37,7 +37,7 @@ export class AssessmentProgressComponent implements OnInit {
       options: {
         scales: {
           y: {
-            beginAtZero: true,
+            beginAtZero: false,
             ticks: { stepSize: 25 },
           },
         },
