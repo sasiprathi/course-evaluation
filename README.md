@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo
 
-To test the responsiveness, you can also view [this link](https://sasi-course-evaluation.netlify.app) on any device, such as a phone, tablet, or laptop. - [Demo](https://sasi-course-evaluation.netlify.app)
+To test the responsiveness, you can also view [this link](https://course-evaluation-ui.netlify.app) on any device, such as a phone, tablet, or laptop. - [Demo](https://course-evaluation-ui.netlify.app)
 
 ## Overview
 
