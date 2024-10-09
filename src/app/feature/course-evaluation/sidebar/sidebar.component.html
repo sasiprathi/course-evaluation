@@ -1,0 +1,44 @@
+<div class="course-sidebar p-3 bg-white">
+  <div class="section mb-2">
+    <h6>Course Code</h6>
+    <p>{{ course.code }}</p>
+  </div>
+
+  <div class="section mb-2">
+    <h6>Course Name</h6>
+    <p>{{ course.name }}</p>
+  </div>
+
+  <div class="section mb-2">
+    <h6>Course Type</h6>
+    <p>{{ course.type }}</p>
+  </div>
+
+  <div class="section mb-2">
+    <h6>Course Period</h6>
+    <p>{{ course.period }}</p>
+  </div>
+
+  <div class="section mb-2">
+    <h6>Credits ({{getCreditCount()}})</h6>
+    <p>Lecture - {{ course.credits.lecture }}</p>
+    <p>Practical - {{ course.credits.practical }}</p>
+    <p>Tutorial - {{ course.credits.tutorial }}</p>
+    <p>Project - {{ course.credits.project }}</p>
+  </div>
+
+  <div class="section mb-2">
+    <h6>Course Outcomes (COs)</h6>
+    <div class="outcomes mb-3">
+      <span class="badge outcome-badge" *ngFor="let outcome of course.outcomes">{{ outcome }}</span>
+    </div>
+  </div>
+
+  <div>
+    <h6>Mapped to this Course</h6>
+    <div class="mapped">
+      <span class="badge mapped-badge" *ngFor="let pos of course.mappedPos">{{pos}}</span>
+    </div>
+  </div>
+</div>
+

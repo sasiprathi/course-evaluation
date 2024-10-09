@@ -1,0 +1,19 @@
+@import '../../../../theme/variables';
+
+.student-attendance {
+  h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: $grayish-blue;
+  }
+
+  canvas {
+    width: 100%;
+    height: auto;
+  }
+
+  #attendanceChart {
+    border: 1px solid $grey-color;
+    border-radius: 5px;
+  }
+}

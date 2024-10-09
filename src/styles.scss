@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.sidebar {
+  background-color: #f8f9fa;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    height: auto;
+  }
+}
+

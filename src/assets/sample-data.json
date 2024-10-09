@@ -1,0 +1,39 @@
+{
+  "course": {
+    "code": "BA3102",
+    "name": "Quantitative techniques",
+    "type": "Program Elective",
+    "period": "Semester - I",
+    "credits": {
+      "lecture": 3,
+      "tutorial": 0,
+      "practical": 1,
+      "project": 0
+    },
+    "outcomes": ["CO2", "CO4", "CO5", "CO7", "CO13", "CO14"],
+    "mappedPos": ["PO7", "PO8", "PO10", "PO12"]
+  },
+  "assessment": {
+    "totalStudents": 100,
+    "averageMark": "85%",
+    "assignment": { "completed": 60, "pending": 40 },
+    "quiz": { "completed": 80, "pending": 20 },
+    "presentation": { "completed": 50, "pending": 50 },
+    "lab": { "completed": 100, "pending": 0 },
+    "viva": { "completed": 85, "pending": 15 }
+  },
+  "attendance": [
+    { "week": "1/7", "attendance": 40 },
+    { "week": "8/7", "attendance": 60 },
+    { "week": "15/7", "attendance": 50 },
+    { "week": "22/7", "attendance": 75 },
+    { "week": "29/7", "attendance": 65 },
+    { "week": "5/8", "attendance": 80 },
+    { "week": "12/8", "attendance": 90 },
+    { "week": "19/8", "attendance": 85 },
+    { "week": "26/8", "attendance": 90 },
+    { "week": "2/9", "attendance": 75 },
+    { "week": "9/9", "attendance": 60 },
+    { "week": "16/9", "attendance": 85 }
+  ]
+}

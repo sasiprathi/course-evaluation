@@ -1,0 +1,40 @@
+@import '../../../../theme/variables';
+
+.course-sidebar {
+  border: 1px solid $grey-color;
+  border-radius: 5px;
+
+  h6 {
+    font-weight: bold;
+    color: $label-blue-color;
+  }
+
+  p {
+    margin-bottom: 10px;
+    color: $content-blue-color;
+  }
+
+  .outcomes, .mapped {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .badge {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}
+
+.outcome-badge {
+  background-color: $green-color;
+  color: $content-blue-color;
+}
+
+.mapped-badge {
+  background-color: $blue-bg-color;
+}
+
+.section {
+  border-bottom: 1px solid $grey-color;
+}

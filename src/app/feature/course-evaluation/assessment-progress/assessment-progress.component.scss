@@ -1,0 +1,32 @@
+@import '../../../../theme/variables';
+
+.assessment-progress {
+  .stats{
+    flex-wrap: wrap;
+    .badge {
+      font-size: 13px;
+      padding: 10px;
+    }
+    .stats-label {
+      background-color: $light-grey-color;
+      color: $dark-blue;
+    }
+    .stats-content{
+      font-size: 15px;
+    }
+  }
+
+  h5 {
+    font-weight: bold;
+    color: $grayish-blue;
+  }
+
+  canvas {
+    width: 100%;
+  }
+
+  #assessmentChart {
+    border: 1px solid $grey-color;
+    border-radius: 5px;
+  }
+}
