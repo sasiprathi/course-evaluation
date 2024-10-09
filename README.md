@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
 
+## Demo
+
+To test the responsiveness, you can also view [this link](https://sasi-course-evaluation.netlify.app) on any device, such as a phone, tablet, or laptop. - [Demo](https://sasi-course-evaluation.netlify.app)
+
 ## Overview
 
 This Angular application displays course-related information, assessment progress, and student attendance using three main components: **Sidebar**, **Assessment Progress**, and **Student Attendance**, which are encapsulated within the **Course Evaluation** component.
