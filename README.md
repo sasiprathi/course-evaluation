@@ -35,6 +35,6 @@ npm install chart.js
 ![Laptop view](src/assets/web-view.png)
 
 ## Mobile view
-![Mobile view 1](src/assets/mobile-1.png)
+![Mobile view 1](src/assets/mobile-1.jpeg)
 
-![Mobile view 2](src/assets/mobile-2.png)
+![Mobile view 2](src/assets/mobile-2.jpeg)
