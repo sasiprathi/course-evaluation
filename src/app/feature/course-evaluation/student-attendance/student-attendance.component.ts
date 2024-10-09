@@ -56,7 +56,6 @@ export class StudentAttendanceComponent implements OnInit {
             }
           },
           x: {
-            beginAtZero: false,
             display: true,
             title: {
               display: true,
