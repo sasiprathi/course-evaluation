@@ -16,7 +16,7 @@ export class AssessmentProgressComponent implements OnInit {
     Chart.register(...registerables);
 
     const ctx = document.getElementById('assessmentChart') as HTMLCanvasElement;
-    ctx.height = 250;
+    ctx.height = 265;
     new Chart(ctx, {
       type: 'bar',
       data: {

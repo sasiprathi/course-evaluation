@@ -32,9 +32,9 @@ npm install chart.js
 ```
 
 ## Laptop view
-![Laptop view](src/assets/web-view.png)
+![Laptop view](src/assets/laptop-view.png)
 
 ## Mobile view
-![Mobile view 1](src/assets/mobile-1.jpeg)
+![Mobile view 1](src/assets/mobile-view-1.jpeg)
 
-![Mobile view 2](src/assets/mobile-2.jpeg)
+![Mobile view 2](src/assets/mobile-view-2.jpeg)

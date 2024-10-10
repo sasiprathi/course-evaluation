@@ -10,7 +10,7 @@ import {Chart, registerables} from "chart.js";
 export class StudentAttendanceComponent implements OnInit {
 
   attendanceLabels:string[] = data.attendance.map(a => a.week);
-  attendanceDataList:number[] = data.attendance.map(a => a.attendance);
+  attendanceDataList:(number|null)[] = data.attendance.map(a => a.attendance);
 
   constructor() {}
 
@@ -18,7 +18,7 @@ export class StudentAttendanceComponent implements OnInit {
     Chart.register(...registerables);
 
     const ctx = document.getElementById('attendanceChart') as HTMLCanvasElement;
-    ctx.height = 250;
+    ctx.height = 265;
     new Chart(ctx, {
       type: 'line',
       data: {
@@ -31,7 +31,13 @@ export class StudentAttendanceComponent implements OnInit {
             borderColor: '#6a1b9a',
             tension: 0.1,
             pointBackgroundColor: '#000',
-            pointRadius: 4
+            pointRadius: 4,
+            segment: {
+              borderDash: (ctx) => {
+                const index = ctx.p1DataIndex;
+                return this.attendanceDataList[index+1] === null ? [10, 5] : undefined;
+              },
+            },
           },
         ],
       },
